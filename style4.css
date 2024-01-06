@@ -1,0 +1,50 @@
+* {
+    background-color: rgb(164, 91, 200);
+}
+
+button {
+    color: rgb(227, 61, 186);
+    background-color: antiquewhite;
+}
+
+button:hover {
+    color: rgb(232, 22, 22);
+    background-color: rgb(228, 228, 59);
+    border-radius: 5px;
+}
+
+div {
+    height: 300px;
+    width: 300px;
+    border: 5px double cadetblue;
+    background-color: bisque;
+    margin: 100px;
+    margin-left: 400px;
+    padding: 50px;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(246, 246, 11);
+    text-align: center;
+    margin-top: 100px;
+}
+
+h1::first-letter {
+    color: maroon;
+    font-size: 50px;
+}
+
+p::first-line {
+    color: crimson;
+    font-size: 40px;
+}
+
+p::selection {
+    background-color: aquamarine;
+}
+
+span {
+    color: maroon;
+    font-size: 50px;
+}
